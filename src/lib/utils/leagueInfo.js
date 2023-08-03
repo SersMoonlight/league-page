@@ -34,7 +34,7 @@ export const managers = [
       "managerID": "980961622812377088",  // the user's manager ID, go to https://api.sleeper.app/v1/league/<your_league_id>/users to find user IDs (you can use older leagueIDs to find user IDs for managers that are no longer in the league)
       "name": "John",
       
-      "location": "Carmel", // (optional)
+      "location": "", // (optional)
       "bio": "A former Vietnam veteran and highly skilled Green Beret, John returned from the war as a decorated, but disturbed hero. He is filled with self-loathing and hates killing, but is willing to use his skills to protect those close to him.",
       "photo": "/managers/name.jpg", // square ratio recommended (no larger than 500x500)
       "fantasyStart": 2013, // (optional) when did the manager start playing fantasy football
@@ -50,7 +50,7 @@ export const managers = [
       "rookieOrVets": "Rookies", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
       "philosophy": "ELE", // (optional)
       "tradingScale": 10, // 1 - 10 (optional)
-      "preferredContact": "Text or Sleeper",  // (optional) 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
+      "preferredContact": "Sleeper",  // (optional) 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
     },
     // {
     //   "roster": 2,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
