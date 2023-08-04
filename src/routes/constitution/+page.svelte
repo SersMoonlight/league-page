@@ -149,9 +149,9 @@
     
     <h3 class="subSectionHeading" bind:this={oneOne}>1.1 Positional Breakdown</h3>
     
-    <p>28 Total Players</p>
+    <p>29 Total Players</p>
     
-    <p class="underscore">Starters</p>
+    <p class="underscore">10 Starters</p>
     <ul>
         <li>QB</li>
         <li>RB</li>
