@@ -36,7 +36,7 @@ export const managers = [
       
       "location": "Carmel", // (optional)
       "bio": "A former Vietnam veteran and highly skilled Green Beret, John returned from the war as a decorated, but disturbed hero. He is filled with self-loathing and hates killing, but is willing to use his skills to protect those close to him.",
-      "photo": "/managers/gun.jpg", // square ratio recommended (no larger than 500x500)
+      "photo": "/managers/name.jpg", // square ratio recommended (no larger than 500x500)
       "fantasyStart": 2013, // (optional) when did the manager start playing fantasy football
       "favoriteTeam": "chi", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
       "mode": "Dynasty", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
