@@ -91,7 +91,7 @@ export const managers = [
         link: null, // manager array number within this array, or null to link back to all managers page
         image: "/managers/rival.jpg", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
       },
-      "favoritePlayer": 914, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
+      "favoritePlayer": 941, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
       "valuePosition": "WR", // (optional) Favorite position (QB, WR, RB, TE, etc.)
       "rookieOrVets": "Rookies", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
       "philosophy": "SSJNelly approaches fantasy football with a philosophy rooted in his unparalleled power and cosmic vision. Drawing on his extraordinary ability to harness the energy of the stars, SSJNelly perceives each player as a celestial body within the vast galaxy of the league. With an outlandish trait that allows him to channel cosmic forces, SSJNelly navigates the virtual gridiron with an ethereal perspective, recognizing the ebb and flow of player performances as constellations of potential. Just as stars align in the night sky, SSJNelly orchestrates trades and strategies that bring together talents in ways that illuminate the path to victory. His league presence is a testament to the infinite possibilities that unfold when otherworldly insights combine with earthly competition, reminding us all that in the cosmos of fantasy football, even the stars play a role.", // (optional)
