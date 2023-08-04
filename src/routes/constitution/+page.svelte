@@ -165,7 +165,7 @@
         <li>SUPERFLEX</li>
     </ul>
     
-    <p>25 Bench</p>
+    <p>15 Bench</p>
     <p>4 Taxi (Rookie who must be placed on Taxi Squad by start of season)</p>
 
     <p>10 IR Spots (Player must be labeled as IR or PUP in the Sleeper App)</p>
