@@ -48,7 +48,7 @@ export const managers = [
       "favoritePlayer": 7591, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
       "valuePosition": "WR", // (optional) Favorite position (QB, WR, RB, TE, etc.)
       "rookieOrVets": "Rookies", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
-      "philosophy": "ELE", // (optional)
+      "philosophy": "ELE - Everybody Love Everybody", // (optional)
       "tradingScale": 10, // 1 - 10 (optional)
       "preferredContact": "Sleeper",  // (optional) 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
     }, 
@@ -60,7 +60,7 @@ export const managers = [
       "location": "Next Door", // (optional)
       "bio": "Introducing Coach Matata, the enigmatic maestro of our dynasty fantasy football realm. Not only does Coach Matata possess an uncanny knack for predicting player performance, but his mystical connection to a parallel football dimension grants him periodic glimpses into alternate realities where game outcomes are reversed! With an otherworldly insight into the ebb and flow of fantasy matchups, Coach Matata weaves an extraordinary tapestry of wins and losses, often leaving fellow league members wondering if they're competing against a mere mortal or a football oracle from a cosmic realm.",
       "photo": "/managers/name.jpg", // square ratio recommended (no larger than 500x500)
-      "fantasyStart": 2014, // (optional) when did the manager start playing fantasy football
+      "fantasyStart": 2010, // (optional) when did the manager start playing fantasy football
       "favoriteTeam": "chi", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
       "mode": "Win Now", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
       "rival": {
@@ -74,6 +74,29 @@ export const managers = [
       "philosophy": "In the realm of dynasty fantasy football, Coach Matata embraces a unique philosophy that melds the wisdom of the ages with a twist. Believing that every player's journey is akin to a hero's saga, Coach Matata seeks not only statistical prowess but also the narrative essence that defines each athlete. Just as his mystical abilities allow him glimpses into alternate football realities, Coach Matata cherishes the long game, nurturing emerging talents and predicting breakout moments that shape dynasties. For Coach Matata, the gridiron isn't just a field, but a canvas upon which tales of triumph and valor are painted, inviting fellow managers to witness the enchanting dance of strategy and destiny.", // (optional)
       "tradingScale": 5, // 1 - 10 (optional)
       "preferredContact": "Grindr",  // (optional) 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
+    },
+  {
+      
+      "managerID": "873427679511207936",  // the user's manager ID, go to https://api.sleeper.app/v1/league/<your_league_id>/users to find user IDs (you can use older leagueIDs to find user IDs for managers that are no longer in the league)
+      "name": "SSJNelly",
+      
+      "location": "Not Carmel", // (optional)
+      "bio": "Venture into the realm of dynasty fantasy football alongside SSJNelly, whose passion for the pigskin is only matched by his remarkable ability to communicate with woodland creatures. A true enchantment dwells within SSJNelly, as he navigates both the virtual gridiron and the verdant tapestries of nature with equal finesse. Whether strategizing lineups or orchestrating conversations with the forest's inhabitants, SSJNelly's league presence is a symphony of strategy and harmony. With whispers of advice from squirrels and sage advice from owls, SSJNelly's connection to the animal kingdom infuses a touch of whimsy and wonder into our fantasy football journey.",
+      "photo": "/managers/name.jpg", // square ratio recommended (no larger than 500x500)
+      "fantasyStart": 2023, // (optional) when did the manager start playing fantasy football
+      "favoriteTeam": "min", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
+      "mode": "Rebuild", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
+      "rival": {
+        name: "Soon", // Can be anything (usually your rival's name)
+        link: null, // manager array number within this array, or null to link back to all managers page
+        image: "/managers/rival.jpg", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
+      },
+      "favoritePlayer": 914, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
+      "valuePosition": "WR", // (optional) Favorite position (QB, WR, RB, TE, etc.)
+      "rookieOrVets": "Rookies", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
+      "philosophy": "SSJNelly approaches fantasy football with a philosophy rooted in his unparalleled power and cosmic vision. Drawing on his extraordinary ability to harness the energy of the stars, SSJNelly perceives each player as a celestial body within the vast galaxy of the league. With an outlandish trait that allows him to channel cosmic forces, SSJNelly navigates the virtual gridiron with an ethereal perspective, recognizing the ebb and flow of player performances as constellations of potential. Just as stars align in the night sky, SSJNelly orchestrates trades and strategies that bring together talents in ways that illuminate the path to victory. His league presence is a testament to the infinite possibilities that unfold when otherworldly insights combine with earthly competition, reminding us all that in the cosmos of fantasy football, even the stars play a role.", // (optional)
+      "tradingScale": 10, // 1 - 10 (optional)
+      "preferredContact": "Sleeper",  // (optional) 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
     },
     // {
     //   "roster": 2,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
