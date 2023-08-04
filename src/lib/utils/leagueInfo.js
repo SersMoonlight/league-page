@@ -107,7 +107,7 @@ export const managers = [
       "bio": "Presenting TapThatPatty, the illustriously bewildering team manager of "Joey B's Buttholes" within the raucously rugged Brockway Dynasty of the Manly Men dynasty football league. With a beard that defies gravitational norms, TapThatPatty fearlessly navigates the touchdowns and tackles, all while orchestrating his team with the finesse of a maestro conducting a symphony of chaos. As skilled in psychological warfare as he is with his beard grooming routine, he keeps his opponents on their toes while indulging in his secret obsession: competitive quiche baking. From audacious audibles on the field to crafting the perfect quiche Lorraine off it, TapThatPatty proves that in the unpredictable world of fantasy football, a seasoned beard and a delectable pastry can be the ultimate game changers.",
       "photo": "/managers/name.jpg", // square ratio recommended (no larger than 500x500)
       "fantasyStart": 2023, // (optional) when did the manager start playing fantasy football
-      "favoriteTeam": "ind", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
+      "favoriteTeam": "ne", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
       "mode": "Dynasty", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
       "rival": {
         name: "John", // Can be anything (usually your rival's name)
