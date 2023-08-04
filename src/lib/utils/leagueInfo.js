@@ -41,8 +41,8 @@ export const managers = [
       "favoriteTeam": "chi", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
       "mode": "Dynasty", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
       "rival": {
-        name: "Not yet", // Can be anything (usually your rival's name)
-        link: null, // manager array number within this array, or null to link back to all managers page
+        name: "TapThatPatty", // Can be anything (usually your rival's name)
+        link: 3, // manager array number within this array, or null to link back to all managers page
         image: "/managers/rival.jpg", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
       },
       "favoritePlayer": 7591, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
@@ -96,6 +96,29 @@ export const managers = [
       "rookieOrVets": "Rookies", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
       "philosophy": "SSJNelly approaches fantasy football with a philosophy rooted in his unparalleled power and cosmic vision. Drawing on his extraordinary ability to harness the energy of the stars, SSJNelly perceives each player as a celestial body within the vast galaxy of the league. With an outlandish trait that allows him to channel cosmic forces, SSJNelly navigates the virtual gridiron with an ethereal perspective, recognizing the ebb and flow of player performances as constellations of potential. Just as stars align in the night sky, SSJNelly orchestrates trades and strategies that bring together talents in ways that illuminate the path to victory. His league presence is a testament to the infinite possibilities that unfold when otherworldly insights combine with earthly competition, reminding us all that in the cosmos of fantasy football, even the stars play a role.", // (optional)
       "tradingScale": 10, // 1 - 10 (optional)
+      "preferredContact": "Sleeper",  // (optional) 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
+    },
+  {
+      
+      "managerID": "980272752240250880",  // the user's manager ID, go to https://api.sleeper.app/v1/league/<your_league_id>/users to find user IDs (you can use older leagueIDs to find user IDs for managers that are no longer in the league)
+      "name": "TapThatPatty",
+      
+      "location": "Parts Unkown", // (optional)
+      "bio": "Presenting TapThatPatty, the illustriously bewildering team manager of "Joey B's Buttholes" within the raucously rugged Brockway Dynasty of the Manly Men dynasty football league. With a beard that defies gravitational norms, TapThatPatty fearlessly navigates the touchdowns and tackles, all while orchestrating his team with the finesse of a maestro conducting a symphony of chaos. As skilled in psychological warfare as he is with his beard grooming routine, he keeps his opponents on their toes while indulging in his secret obsession: competitive quiche baking. From audacious audibles on the field to crafting the perfect quiche Lorraine off it, TapThatPatty proves that in the unpredictable world of fantasy football, a seasoned beard and a delectable pastry can be the ultimate game changers.",
+      "photo": "/managers/name.jpg", // square ratio recommended (no larger than 500x500)
+      "fantasyStart": 2023, // (optional) when did the manager start playing fantasy football
+      "favoriteTeam": "ind", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
+      "mode": "Dynasty", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
+      "rival": {
+        name: "John", // Can be anything (usually your rival's name)
+        link: 3, // manager array number within this array, or null to link back to all managers page
+        image: "/managers/Rambo.jpg", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
+      },
+      "favoritePlayer": 6770, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
+      "valuePosition": "WR", // (optional) Favorite position (QB, WR, RB, TE, etc.)
+      "rookieOrVets": "Rookies", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
+      "philosophy": "TapThatPatty approaches dynasty fantasy football with a unique blend of calculated strategy and fearless audacity. As the mastermind behind "Joey B's Buttholes" in the Brockway Dynasty league, he believes in staying one step ahead of the competition while embracing the thrill of the unpredictable. With a penchant for discovering hidden talent and a knack for turning the tides in his favor, TapThatPatty's philosophy revolves around building a roster that mirrors his dynamic approach to the game. Just as he appreciates the delicate balance of ingredients in his favorite dishes, he understands the delicate balance between risk and reward in player decisions. For TapThatPatty, dynasty football isn't just a pastime—it's a relentless pursuit of victory that echoes his unwavering dedication and commitment to success.", // (optional)
+      "tradingScale": 2, // 1 - 10 (optional)
       "preferredContact": "Sleeper",  // (optional) 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
     },
     // {
