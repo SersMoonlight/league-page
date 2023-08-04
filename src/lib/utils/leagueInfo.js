@@ -59,7 +59,7 @@ export const managers = [
       
       "location": "Next Door", // (optional)
       "bio": "Introducing Coach Matata, the enigmatic maestro of our dynasty fantasy football realm. Not only does Coach Matata possess an uncanny knack for predicting player performance, but his mystical connection to a parallel football dimension grants him periodic glimpses into alternate realities where game outcomes are reversed! With an otherworldly insight into the ebb and flow of fantasy matchups, Coach Matata weaves an extraordinary tapestry of wins and losses, often leaving fellow league members wondering if they're competing against a mere mortal or a football oracle from a cosmic realm.",
-      "photo": "/managers/name.jpg", // square ratio recommended (no larger than 500x500)
+      "photo": "/managers/Pumbaa.png", // square ratio recommended (no larger than 500x500)
       "fantasyStart": 2010, // (optional) when did the manager start playing fantasy football
       "favoriteTeam": "chi", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
       "mode": "Win Now", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
