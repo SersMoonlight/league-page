@@ -82,7 +82,7 @@ export const managers = [
       
       "location": "Not Carmel", // (optional)
       "bio": "Venture into the realm of dynasty fantasy football alongside SSJNelly, whose passion for the pigskin is only matched by his remarkable ability to communicate with woodland creatures. A true enchantment dwells within SSJNelly, as he navigates both the virtual gridiron and the verdant tapestries of nature with equal finesse. Whether strategizing lineups or orchestrating conversations with the forest's inhabitants, SSJNelly's league presence is a symphony of strategy and harmony. With whispers of advice from squirrels and sage advice from owls, SSJNelly's connection to the animal kingdom infuses a touch of whimsy and wonder into our fantasy football journey.",
-      "photo": "/managers/name.jpg", // square ratio recommended (no larger than 500x500)
+      "photo": "/managers/Vegeta.jpg", // square ratio recommended (no larger than 500x500)
       "fantasyStart": 2023, // (optional) when did the manager start playing fantasy football
       "favoriteTeam": "min", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
       "mode": "Rebuild", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
