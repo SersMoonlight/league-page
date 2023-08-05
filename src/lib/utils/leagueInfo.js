@@ -130,7 +130,7 @@ export const managers = [
       "bio": "Meet BigDaddyKlimko, the towering titan at the helm of first round pickett in the uproarious arena of the Brockway Dynasty for Manly Men dynasty football league. Renowned for his unyielding affection for tight ends (TEs), he drafts them with a fervor that rivals a squirrel collecting acorns for winter. With a strategic prowess that mirrors his meticulous tea-brewing rituals, BigDaddyKlimko navigates the league's tumultuous terrain like a majestic albatross riding the fantasy football winds. Off the field, he boasts a collection of rare, enchanted spatulas that he insists bring good luck to his team – a quirk that has rivals wondering if it's the spatulas or his TE-savvy strategy that propels him forward. So, whether he's sipping his chamomile tea or meticulously analyzing TE stats, BigDaddyKlimko is a force to be reckoned with, both in the realm of football strategy and culinary superstitions.",
       "photo": "/managers/name.jpg", // square ratio recommended (no larger than 500x500)
       "fantasyStart": 2023, // (optional) when did the manager start playing fantasy football
-      "favoriteTeam": "pit", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
+      "favoriteTeam": "ind", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
       "mode": "Win Now", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
       "rival": {
         name: "Soon", // Can be anything (usually your rival's name)
