@@ -101,20 +101,20 @@ export const managers = [
   {
       
       "managerID": "980999174231470080",  // the user's manager ID, go to https://api.sleeper.app/v1/league/<your_league_id>/users to find user IDs (you can use older leagueIDs to find user IDs for managers that are no longer in the league)
-      "name": "SSJNelly",
+      "name": "BigDaddyKlimko",
       
-      "location": "Not Carmel", // (optional)
-      "bio": "Venture into the realm of dynasty fantasy football alongside SSJNelly, whose passion for the pigskin is only matched by his remarkable ability to communicate with woodland creatures. A true enchantment dwells within SSJNelly, as he navigates both the virtual gridiron and the verdant tapestries of nature with equal finesse. Whether strategizing lineups or orchestrating conversations with the forest's inhabitants, SSJNelly's league presence is a symphony of strategy and harmony. With whispers of advice from squirrels and sage advice from owls, SSJNelly's connection to the animal kingdom infuses a touch of whimsy and wonder into our fantasy football journey.",
-      "photo": "/managers/Vegeta.jpg", // square ratio recommended (no larger than 500x500)
+      "location": "Way Out There", // (optional)
+      "bio": "Meet BigDaddyKlimko, the towering titan at the helm of "first round pickett" in the uproarious arena of the Brockway Dynasty for Manly Men dynasty football league. Renowned for his unyielding affection for tight ends (TEs), he drafts them with a fervor that rivals a squirrel collecting acorns for winter. With a strategic prowess that mirrors his meticulous tea-brewing rituals, BigDaddyKlimko navigates the league's tumultuous terrain like a majestic albatross riding the fantasy football winds. Off the field, he boasts a collection of rare, enchanted spatulas that he insists bring good luck to his team – a quirk that has rivals wondering if it's the spatulas or his TE-savvy strategy that propels him forward. So, whether he's sipping his chamomile tea or meticulously analyzing TE stats, BigDaddyKlimko is a force to be reckoned with, both in the realm of football strategy and culinary superstitions.",
+      "photo": "/managers/name.jpg", // square ratio recommended (no larger than 500x500)
       "fantasyStart": 2023, // (optional) when did the manager start playing fantasy football
-      "favoriteTeam": "min", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
-      "mode": "Rebuild", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
+      "favoriteTeam": "pit", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
+      "mode": "Win Now", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
       "rival": {
         name: "Soon", // Can be anything (usually your rival's name)
         link: null, // manager array number within this array, or null to link back to all managers page
         image: "/managers/rival.jpg", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
       },
-      "favoritePlayer": 941, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
+      "favoritePlayer": 4040, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
       "valuePosition": "WR", // (optional) Favorite position (QB, WR, RB, TE, etc.)
       "rookieOrVets": "Rookies", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
       "philosophy": "SSJNelly approaches fantasy football with a philosophy rooted in his unparalleled power and cosmic vision. Drawing on his extraordinary ability to harness the energy of the stars, SSJNelly perceives each player as a celestial body within the vast galaxy of the league. With an outlandish trait that allows him to channel cosmic forces, SSJNelly navigates the virtual gridiron with an ethereal perspective, recognizing the ebb and flow of player performances as constellations of potential. Just as stars align in the night sky, SSJNelly orchestrates trades and strategies that bring together talents in ways that illuminate the path to victory. His league presence is a testament to the infinite possibilities that unfold when otherworldly insights combine with earthly competition, reminding us all that in the cosmos of fantasy football, even the stars play a role.", // (optional)
