@@ -172,22 +172,22 @@ export const managers = [
       "managerID": "979435022841126912",  // the user's manager ID, go to https://api.sleeper.app/v1/league/<your_league_id>/users to find user IDs (you can use older leagueIDs to find user IDs for managers that are no longer in the league)
       "name": "Alex",
      
-      "location": "Here", // (optional)
-      "bio": "Once in the realm of Brockway Dynasty, a shrewd manager named Alex undertook a noble quest at the helm of The Yellow Jacket Boys, a team adorned with both burgeoning talents and the radiance of seasoned stars, exemplified by the illustrious Patrick Mahomes. Despite prophesies of a rebuilding season, their power ranking low like a whispered doubt, Alex held a lantern of hope aloft. As the tortoise persistently trudges on, defying the fleet hare's jests, so too does Alex nurture his squad, fostering their growth. As the season unfolds, will The Yellow Jacket Boys, guided by the wisdom of Alex and the luminous beacon of Patrick Mahomes, soar beyond expectations, surprising the realm with their ascent? Though the wind whispers of defeat, the patient gardener of potential can sow surprises that bloom in the fields of doubt.",
+      "location": "Earth", // (optional)
+      "bio": "Hi, I'm Alexl",
       "photo": "/managers/DWI.jpg", // square ratio recommended (no larger than 500x500)
-      "fantasyStart": 2014, // (optional) when did the manager start playing fantasy football
+      "fantasyStart": 2006, // (optional) when did the manager start playing fantasy football
       "favoriteTeam": "ind", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
       "mode": "Dynasty", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
       "rival": {
-        name: "Rival", // Can be anything (usually your rival's name)
-        link: 6, // manager array number within this array, or null to link back to all managers page
-        image: "/managers/rival.jpg", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
+        name: "Matata", // Can be anything (usually your rival's name)
+        link: 1, // manager array number within this array, or null to link back to all managers page
+        image: "/managers/Pumbaa.png", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
       },
-      "favoritePlayer": 4051, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
+      "favoritePlayer": 1907, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
       "valuePosition": "QB", // (optional) Favorite position (QB, WR, RB, TE, etc.)
       "rookieOrVets": "Rookies", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
-      "philosophy": "In the annals of strategy, Alex's dynasty philosophy stands as a tale of resilience woven into the fabric of the gridiron. Facing a draft ordeal where his back-to-back picks became a poverty of choices, flanked by managers whose keen instincts resembled a hawk's gaze, he found himself ensnared in a snake draft that could easily become his undoing. With each selection, he navigated the perilous waters, choosing not the glitziest jewels but the uncut gems, forging a mosaic that echoed the heartbeat of potential. Amidst the strategic brilliance that enveloped him, Alex embraced the underdog's path, trading momentary triumphs for enduring success. Just as the tortoise persistently inches ahead while the hares sprint, he nurtured his core stars and cultivated his youthful talents. His dynasty philosophy, a testament to patience and vision, stands as a reminder that in the dynasty realm, where currents of tactics clash, there lies a hidden path to greatness that only the wise can decipher.", // (optional)
-      "tradingScale": 10, // 1 - 10 (optional)
+      "philosophy": "You play to win the game.", // (optional)
+      "tradingScale": 5, // 1 - 10 (optional)
       "preferredContact": "Sleeper",  // (optional) 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
     },
   {
