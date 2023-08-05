@@ -158,9 +158,9 @@ export const managers = [
       "rival": {
         name: "Rivals", // Can be anything (usually your rival's name)
         link: null, // manager array number within this array, or null to link back to all managers page
-        image: "/managers/Rambo.jpg", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
+        image: "/managers/rival.jpg", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
       },
-      "favoritePlayer": 6770, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
+      "favoritePlayer": 7523, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
       "valuePosition": "WR", // (optional) Favorite position (QB, WR, RB, TE, etc.)
       "rookieOrVets": "Vets", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
       "philosophy": "TapThatPatty approaches dynasty fantasy football with a unique blend of calculated strategy and fearless audacity. As the mastermind behind Joey B's Buttholes in the Brockway Dynasty league, he believes in staying one step ahead of the competition while embracing the thrill of the unpredictable. With a penchant for discovering hidden talent and a knack for turning the tides in his favor, TapThatPatty's philosophy revolves around building a roster that mirrors his dynamic approach to the game. Just as he appreciates the delicate balance of ingredients in his favorite dishes, he understands the delicate balance between risk and reward in player decisions. For TapThatPatty, dynasty football isn't just a pastime—it's a relentless pursuit of victory that echoes his unwavering dedication and commitment to success.", // (optional)
