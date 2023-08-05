@@ -209,7 +209,7 @@ export const managers = [
       "favoritePlayer": 294, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
       "valuePosition": "WR", // (optional) Favorite position (QB, WR, RB, TE, etc.)
       "rookieOrVets": "Vets", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
-      "philosophy": "Your fantasy team's philosophy", // (optional)
+      "philosophy": "JohnnyB's dynasty fantasy football philosophy is a dual identity, a paradox of strategic genius hidden beneath the veil of everyday normalcy. By day, he navigates the mundane world, his passion for spreadsheets and player stats concealed behind an unassuming facade. But as the sun sets and the stadium lights flicker to life, he transforms into a shrewd dynasty manager with an uncanny ability to turn overlooked picks into gold. His secret identity grants him the freedom to zig when others zag, to see opportunity where others see only risk. Just as a master illusionist weaves magic into the ordinary, JohnnyB conjures his fantasy football mastery from the threads of his ordinary life, all while harboring a covert grin that comes from knowing that by night, he's the architect of victory.", // (optional)
       "tradingScale": 5, // 1 - 10 (optional)
       "preferredContact": "Text",  // (optional) 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
     },
