@@ -231,7 +231,7 @@ export const managers = [
       "favoritePlayer": 7591, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
       "valuePosition": "RB", // (optional) Favorite position (QB, WR, RB, TE, etc.)
       "rookieOrVets": "Vets", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
-      "philosophy": "Your fantasy team's philosophy", // (optional)
+      "philosophy": "Lapinski, the gridiron maestro of mythic proportions, strode into the draft arena with the presence of a grizzly bear entering a salmon-packed river. Positioned at the tail end of the snake draft, he faced the double-edged sword of back-to-back picks, a challenge that could leave lesser minds in a tailspin. With the strategic finesse of a chess grandmaster, Lapinski orchestrated a symphony of selections that blended the might of proven veterans with the dazzle of big-name stars, crafting a roster that could rival the pantheon of football gods. Just as a blacksmith forges masterpieces in the heart of roaring flames, Lapinski molded his team with each deft choice, yielding a juggernaut that's poised to shake the league to its core.", // (optional)
       "tradingScale": 4, // 1 - 10 (optional)
       "preferredContact": "Text",  // (optional) 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
     },
