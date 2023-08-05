@@ -131,17 +131,17 @@ export const managers = [
       "photo": "/managers/name.jpg", // square ratio recommended (no larger than 500x500)
       "fantasyStart": 2023, // (optional) when did the manager start playing fantasy football
       "favoriteTeam": "ind", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
-      "mode": "Win Now", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
+      "mode": "Dynasty", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
       "rival": {
-        name: "Soon", // Can be anything (usually your rival's name)
-        link: null, // manager array number within this array, or null to link back to all managers page
+        name: "John", // Can be anything (usually your rival's name)
+        link: 0, // manager array number within this array, or null to link back to all managers page
         image: "/managers/rival.jpg", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
       },
-      "favoritePlayer": 4040, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
-      "valuePosition": "TE", // (optional) Favorite position (QB, WR, RB, TE, etc.)
-      "rookieOrVets": "Vets", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
+      "favoritePlayer": 6770, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
+      "valuePosition": "WR", // (optional) Favorite position (QB, WR, RB, TE, etc.)
+      "rookieOrVets": "Rookies", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
       "philosophy": "BigDaddyKlimko's draft philosophy is as bold as it is tightly focused, resembling a ship steadfastly sailing into the storm despite the mocking waves. His undying love for tight ends (TEs) forms the cornerstone of his strategy, often prompting fellow managers to quip that his team could be called 'Tight End Extravaganza.' While his past seasons have seen more fumbles than touchdowns, BigDaddyKlimko clings to his dream of TE glory with the resilience of a rubber band stretched to its limits. He envisions a triumphant future where his TE-centric approach finally pays off, a vision that fuels his draft day enthusiasm. He eagerly anticipates the day when he can smugly raise his TE-laden roster above his critics' heads, proving that in the wild world of fantasy football, even the quirkiest strategies can one day emerge victorious, much like the coveted touchdown catches he imagines his TEs making.", // (optional)
-      "tradingScale": 8, // 1 - 10 (optional)
+      "tradingScale": 2, // 1 - 10 (optional)
       "preferredContact": "Sleeper",  // (optional) 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
     }, 
   
