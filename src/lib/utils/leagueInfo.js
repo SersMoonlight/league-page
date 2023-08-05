@@ -254,7 +254,7 @@ export const managers = [
       "favoritePlayer": 4035, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
       "valuePosition": "TE", // (optional) Favorite position (QB, WR, RB, TE, etc.)
       "rookieOrVets": "Vets", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
-      "philosophy": "Your fantasy team's philosophy", // (optional)
+      "philosophy": "KCWARR's dynasty fantasy football philosophy is a paradox of nonchalance and calculated brilliance. With an autopilot strategy that's as unconventional as it is effective, he assembles a roster of big names and seasoned veterans, creating a mosaic of experience that defies the norms of meticulous planning. It's as if he's choreographing a dance between fate and football, trusting that his eclectic ensemble of players will syncopate to victory. Last year's unexpected success catapulted him to the top of the league, and as he reigns supreme in the pre-season power rankings once more, KCWARR's audacious methodology raises the question: can carefree confidence triumph over painstaking precision?", // (optional)
       "tradingScale": 2, // 1 - 10 (optional)
       "preferredContact": "Carrier Pigeon",  // (optional) 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
     },
