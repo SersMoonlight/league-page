@@ -218,7 +218,7 @@ export const managers = [
       "managerID": "981757413189582848",  // the user's manager ID, go to https://api.sleeper.app/v1/league/<your_league_id>/users to find user IDs (you can use older leagueIDs to find user IDs for managers that are no longer in the league)
       "name": "Lapinski",
       "location": "Here", // (optional)
-      "bio": "Lorem ipsum...",
+      "bio": "Prepare to meet the titan of the Brockway Dynasty, Lapinski, whose mere presence sends ripples of awe across the league, akin to a thunderous stampede of wildebeests down Main Street. At the helm of his yet-to-be-named team, let's whimsically christen them The Bearded Bruisers, Lapinski ushers in a strategy that blends the audacity of juggling flaming torches with the sage wisdom of an owl's library. With a beard that could shelter a family of squirrels and muscles that could outwrestle Zeus himself, he's assembling a roster brimming with proven veterans, more formidable than a battalion of knights. However, hidden among these proven gridiron titans lies the sparkling gem of a rookie running back, Bijon Robinson, an undiscovered treasure in the football treasure trove. As the league braces for the ultimate strategic showdown, Lapinski's arrival echoes like a bellowing battle cry, promising a season that's as thrilling and uproarious as his audacious, yet cunning, dynasty football conquests.",
       "photo": "/managers/name.jpg", // square ratio recommended (no larger than 500x500)
       "fantasyStart": 2014, // (optional) when did the manager start playing fantasy football
       "favoriteTeam": "chi", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
