@@ -124,24 +124,24 @@ export const managers = [
  {
       
       "managerID": "980272752240250880",  // the user's manager ID, go to https://api.sleeper.app/v1/league/<your_league_id>/users to find user IDs (you can use older leagueIDs to find user IDs for managers that are no longer in the league)
-      "name": "TapThatPatty",
+      "name": "BigDaddyKlimko",
       
-      "location": "Parts Unkown", // (optional)
-      "bio": "Presenting TapThatPatty, the illustriously bewildering team manager of Joey B's Buttholes within the raucously rugged Brockway Dynasty of the Manly Men dynasty football league. With a beard that defies gravitational norms, TapThatPatty fearlessly navigates the touchdowns and tackles, all while orchestrating his team with the finesse of a maestro conducting a symphony of chaos. As skilled in psychological warfare as he is with his beard grooming routine, he keeps his opponents on their toes while indulging in his secret obsession: competitive quiche baking. From audacious audibles on the field to crafting the perfect quiche Lorraine off it, TapThatPatty proves that in the unpredictable world of fantasy football, a seasoned beard and a delectable pastry can be the ultimate game changers.",
+      "location": "There", // (optional)
+      "bio": "Meet BigDaddyKlimko, the towering titan at the helm of first round pickett in the uproarious arena of the Brockway Dynasty for Manly Men dynasty football league. Renowned for his unyielding affection for tight ends (TEs), he drafts them with a fervor that rivals a squirrel collecting acorns for winter. With a strategic prowess that mirrors his meticulous tea-brewing rituals, BigDaddyKlimko navigates the league's tumultuous terrain like a majestic albatross riding the fantasy football winds. Off the field, he boasts a collection of rare, enchanted spatulas that he insists bring good luck to his team – a quirk that has rivals wondering if it's the spatulas or his TE-savvy strategy that propels him forward. So, whether he's sipping his chamomile tea or meticulously analyzing TE stats, BigDaddyKlimko is a force to be reckoned with, both in the realm of football strategy and culinary superstitions.",
       "photo": "/managers/name.jpg", // square ratio recommended (no larger than 500x500)
       "fantasyStart": 2023, // (optional) when did the manager start playing fantasy football
-      "favoriteTeam": "ind", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
-      "mode": "Dynasty, // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
+      "favoriteTeam": "pit", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
+      "mode": "Win Now", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
       "rival": {
-        name: "John", // Can be anything (usually your rival's name)
-        link: 0, // manager array number within this array, or null to link back to all managers page
-        image: "/managers/Rambo.jpg", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
+        name: "Soon", // Can be anything (usually your rival's name)
+        link: null, // manager array number within this array, or null to link back to all managers page
+        image: "/managers/rival.jpg", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
       },
-      "favoritePlayer": 6770, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
-      "valuePosition": "WR", // (optional) Favorite position (QB, WR, RB, TE, etc.)
-      "rookieOrVets": "Rookies", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
-      "philosophy": "TapThatPatty approaches dynasty fantasy football with a unique blend of calculated strategy and fearless audacity. As the mastermind behind Joey B's Buttholes in the Brockway Dynasty league, he believes in staying one step ahead of the competition while embracing the thrill of the unpredictable. With a penchant for discovering hidden talent and a knack for turning the tides in his favor, TapThatPatty's philosophy revolves around building a roster that mirrors his dynamic approach to the game. Just as he appreciates the delicate balance of ingredients in his favorite dishes, he understands the delicate balance between risk and reward in player decisions. For TapThatPatty, dynasty football isn't just a pastime—it's a relentless pursuit of victory that echoes his unwavering dedication and commitment to success.", // (optional)
-      "tradingScale": 2, // 1 - 10 (optional)
+      "favoritePlayer": 4040, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
+      "valuePosition": "TE", // (optional) Favorite position (QB, WR, RB, TE, etc.)
+      "rookieOrVets": "Vets", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
+      "philosophy": "BigDaddyKlimko's draft philosophy is as bold as it is tightly focused, resembling a ship steadfastly sailing into the storm despite the mocking waves. His undying love for tight ends (TEs) forms the cornerstone of his strategy, often prompting fellow managers to quip that his team could be called 'Tight End Extravaganza.' While his past seasons have seen more fumbles than touchdowns, BigDaddyKlimko clings to his dream of TE glory with the resilience of a rubber band stretched to its limits. He envisions a triumphant future where his TE-centric approach finally pays off, a vision that fuels his draft day enthusiasm. He eagerly anticipates the day when he can smugly raise his TE-laden roster above his critics' heads, proving that in the wild world of fantasy football, even the quirkiest strategies can one day emerge victorious, much like the coveted touchdown catches he imagines his TEs making.", // (optional)
+      "tradingScale": 8, // 1 - 10 (optional)
       "preferredContact": "Sleeper",  // (optional) 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
     }, 
   
