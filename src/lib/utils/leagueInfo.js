@@ -196,7 +196,7 @@ export const managers = [
       "name": "JohnnyB",
      
       "location": "Here", // (optional)
-      "bio": "Lorem ipsum...",
+      "bio": "Meet JohnnyB, the unassuming mild-mannered gent who moonlights as the dynamic dynasty football manager extraordinaire! By day, he's your regular Joe, sipping on milkshakes and keeping to himself. But when the sun dips below the horizon and the neon lights start to hum, JohnnyB transforms into a mastermind of the fantasy gridiron, a caped crusader of the Brockway Dynasty league. With a secret identity that could rival the slickest of spies, he maneuvers his unnamed team – known throughout the league as the Whiskey Warriors – with the finesse of a magician pulling rabbits out of helmets. Armed with spreadsheets that glow with the aura of arcane spells, JohnnyB dances through player stats and formations with the grace of a jitterbug champion. So when you see him tapping away at his typewriter in the morning light, remember that by night, he's the one rewriting the rules of dynasty football, one touchdown at a time!",
       "photo": "/managers/name.jpg", // square ratio recommended (no larger than 500x500)
       "fantasyStart": 2014, // (optional) when did the manager start playing fantasy football
       "favoriteTeam": "ind", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
