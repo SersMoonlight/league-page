@@ -174,7 +174,7 @@ export const managers = [
      
       "location": "Here", // (optional)
       "bio": "Once in the realm of Brockway Dynasty, a shrewd manager named Alex undertook a noble quest at the helm of The Yellow Jacket Boys, a team adorned with both burgeoning talents and the radiance of seasoned stars, exemplified by the illustrious Patrick Mahomes. Despite prophesies of a rebuilding season, their power ranking low like a whispered doubt, Alex held a lantern of hope aloft. As the tortoise persistently trudges on, defying the fleet hare's jests, so too does Alex nurture his squad, fostering their growth. As the season unfolds, will The Yellow Jacket Boys, guided by the wisdom of Alex and the luminous beacon of Patrick Mahomes, soar beyond expectations, surprising the realm with their ascent? Though the wind whispers of defeat, the patient gardener of potential can sow surprises that bloom in the fields of doubt.",
-      "photo": "/managers/name.jpg", // square ratio recommended (no larger than 500x500)
+      "photo": "/managers/DWI.jpg", // square ratio recommended (no larger than 500x500)
       "fantasyStart": 2014, // (optional) when did the manager start playing fantasy football
       "favoriteTeam": "ind", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
       "mode": "Dynasty", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
