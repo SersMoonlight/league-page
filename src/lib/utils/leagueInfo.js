@@ -241,7 +241,7 @@ export const managers = [
       "name": "KCWARR",
       
       "location": "Here", // (optional)
-      "bio": "Lorem ipsum...",
+      "bio": "Meet the enigma known as KCWARR, the maverick manager of an unnamed team - let's call them the Chaos Champs, because who needs a name anyway? Armed with a laissez-faire attitude that's as laid-back as a hammock on a sunny day, KCWARR takes fantasy football by storm with an approach that could only be described as autopilot with a twist. While others obsess over stats and lineups, he's busy riding the waves of destiny, trusting in the cosmic alignment of the football stars to guide his team to glory. His nonchalant swagger is matched only by his audacious drafting technique, resulting in a roster as eclectic as a thrift store collection. It's said that KCWARR consults his crystal ball as often as his fantasy app, a strategy that raised eyebrows until last year when he unexpectedly soared to victory, leaving the league in bewildered awe. As the pre-season power rankings place him atop the pyramid once again, KCWARR's unique blend of carefree genius has the league wondering if this year's chaos might just be the recipe for another championship contender.",
       "photo": "/managers/name.jpg", // square ratio recommended (no larger than 500x500)
       "fantasyStart": 2015, // (optional) when did the manager start playing fantasy football
       "favoriteTeam": "no", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
