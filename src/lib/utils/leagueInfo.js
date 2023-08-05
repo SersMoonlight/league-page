@@ -124,7 +124,7 @@ export const managers = [
  {
       
       "managerID": "980272752240250880",  // the user's manager ID, go to https://api.sleeper.app/v1/league/<your_league_id>/users to find user IDs (you can use older leagueIDs to find user IDs for managers that are no longer in the league)
-      "name": "BigDaddyKlimko",
+      "name": "TapThatPatty",
       
       "location": "There", // (optional)
       "bio": "Meet BigDaddyKlimko, the towering titan at the helm of first round pickett in the uproarious arena of the Brockway Dynasty for Manly Men dynasty football league. Renowned for his unyielding affection for tight ends (TEs), he drafts them with a fervor that rivals a squirrel collecting acorns for winter. With a strategic prowess that mirrors his meticulous tea-brewing rituals, BigDaddyKlimko navigates the league's tumultuous terrain like a majestic albatross riding the fantasy football winds. Off the field, he boasts a collection of rare, enchanted spatulas that he insists bring good luck to his team – a quirk that has rivals wondering if it's the spatulas or his TE-savvy strategy that propels him forward. So, whether he's sipping his chamomile tea or meticulously analyzing TE stats, BigDaddyKlimko is a force to be reckoned with, both in the realm of football strategy and culinary superstitions.",
