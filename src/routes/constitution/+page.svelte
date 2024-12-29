@@ -177,7 +177,7 @@
                 <tr><td>QB</td><td class="right">6</td></tr>
                 <tr><td>RB</td><td class="right">15</td></tr>
                 <tr><td>WR</td><td class="right">15</td></tr>
-                <tr><td>TE</td><td class="right">10</td></tr>
+                <tr><td>TE</td><td class="right">8</td></tr>
 
             </table>
         </div>
@@ -185,11 +185,11 @@
 
     <h3 class="subSectionHeading" bind:this={oneTwo}>1.2 Trading</h3>
     
-    <p>Trading of players and draft picks (up to 3 drafts away) are allowed. Trades will process immediately and will be reversed if vetoed or under investigation for collusion. Tradable assets include players, draft picks, and FAAB $. You must pay future dues for both sides of any trades involving future draft picks.</p>
+    <p>Trading of players and draft picks (up to 3 drafts away) are allowed. Trades will process promptly (prior to upcoming games), and will only be reversed for obvious error or while under investigation for collusion. Tradable assets include players, draft picks, and FAAB $. You must pay future dues for both sides of any trades involving future draft picks.</p>
     
     <h4 bind:this={oneTwoOne}>1.2.1 Trade Collusion</h4>
     <div class="subBlock">
-        <p>If any owners are suspected of accepting bribes/offering bribes to enhance their/another owners team via trade, trading any assets other than fantasy players, draft picks, FAAB $, or otherwise found guilty of engaging in any form of collusion*, all parties involved in the trade will be susceptible to punishment. The punishments will go as followed:</p>
+        <p>If any owners are suspected of accepting bribes/offering bribes or other outside compensation to enhance their/another owners team via trade, trading any assets other than fantasy players, draft picks, FAAB $, or otherwise found guilty of engaging in any form of collusion*, all parties involved in the trade will be susceptible to punishment. The punishments will go as followed:</p>
         
         <ul>
             <li>First Offense – Immediate reduction of FAAB budget by 80%</li>
@@ -199,7 +199,6 @@
 
         <p>All trades that are found guilty of collusion, will be reversed/denied. If the trade had affected the outcome of previous games, the results of those games will be revised.  </p>
 
-        <p>*Collusion includes the organizing of veto votes against an acceptable trade.</p>
 
         <p>The commissioner will err on the side of letting owners manage their teams the way they see fit. Any collusion will need to be clear. The commissioner reserves the right to step in and at the very least assess the thinking of any team involved in a heavily lop-sided trade. </p>
     </div>
@@ -211,7 +210,7 @@
     
     <h4 bind:this={oneTwoThree}>1.2.3 Trade Deadline</h4>
     <div class="subBlock">
-        <p>The trade deadline will be set for the Saturday of the week 13 games of the NFL season.</p>
+        <p>The trade deadline will be set for kickoff of the week 13 games of the NFL season.</p>
     </div>
     
     <h4 bind:this={oneTwoFour}>1.2.4 Trade Restrictions</h4>
@@ -219,10 +218,7 @@
         <p>You will not be able to trade draft picks that are more than 3 drafts away. For example, during the 2023 season you cannot trade any picks in or after the 2027 draft. You may only trade FAAB $ from the current season.</p>
     </div>
     
-    <h4 bind:this={oneTwoFive}>1.2.5 Veto/Trade Process</h4>
-    <div class="subBlock">
-        <p>Veto votes are nonbinding recommendations to the commissioners. Vetoes are only appropriate in instances of collusion or an egregious mismatch of value (i.e. Bijon for a backup TE). Not liking a trade does not warrant a veto.</p>
-    </div>
+    
     
     
     
@@ -230,13 +226,13 @@
     
     <p>FAAB Waiver wire system. Each team will begin the season with $100. $0 bids are allowed. Bids will process daily at 3AM except for Monday and Tuesday.</p>
 
-    <p>FAAB budgets will reset each season following the Rookie Draft.</p>
+    <p>FAAB budgets will reset each season following the Rookie Draft, and at the beginning of week 1.</p>
     
     
     <h2 class="sectionHeading" bind:this={two}>Section 2 Drafting</h2>
     
     <h3 bind:this={twoOne}>2.1 Draft Order</h3>
-    <p>The draft order each year will be a linear draft in reverse order of the previous year’s regular season record for non-playoff teams (with total PF as the tie breaker), and by final playoff position for playoff teams (with regular season record as the tie breaker).</p>
+    <p>The draft order each year will be a linear draft the following order: Picks 1-4 will go to the four teams that do not make the playofs, with reverse Max Point-For during the regular season deciding the order. Picks 5-6 will go to the two teams that lose in the wildcard round, with reverse regular season standings determining the order, with regular season Points-For as a tiebreaker. Picks 7-10 shall be determined by final playoff results.</p>
 
     <h3 bind:this={twoTwo}>2.2 Rookie Drafts</h3>
     <p>Rokkie drafts will consist of 4 round of drafting, with 15 minutes alotted for each pick. Players will need to adjust their rosters to the appropriate numbers following the draft before any further transactions are allowed.</p>
@@ -284,14 +280,14 @@
     <h2 class="sectionHeading" bind:this={seven}>Section 7 League Finances</h2>
     
     <h3 bind:this={sevenOne}>7.1 League Dues</h3>
-    <p>League dues are set at 50$. Dues are collected through John Moran and collection will be sent out no later than the first of August. All managers must be fully paid up before the start of regular season.</p>
+    <p>League dues are set at $50. Dues are collected through John Moran and collection will be sent out no later than the first of August. All managers must be fully paid up before the start of regular season.</p>
     
     <h3 bind:this={sevenTwo}>7.2 Payout</h3>
     <p>League payout is structured as follows:</p>
     <ul>
-        <li>1st place: $</li>
-        <li>2nd place: $</li>
-        <li>3rd place: $</li>
+        <li>1st place: $315</li>
+        <li>2nd place: $135</li>
+        <li>3rd place: $50</li>
     </ul>
     <p>In the event that a manager was fined due to late payment, their extra fee will be added to the winner's payout. Similarly, if new managers come into the league and the payout is smaller, the difference will come out of the winner's prize.</p>
     
