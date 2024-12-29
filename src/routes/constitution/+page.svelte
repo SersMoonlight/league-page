@@ -264,7 +264,7 @@
     <h2 class="sectionHeading" bind:this={five}>Section 5 Tanking Policy</h2>
     
     <h3 bind:this={fiveOne}>5.1 League Tanking Policy</h3>
-    <p>No team may intentionally leave starting roster spots empty. Any evidence of intentionally leaving roster spots empty in order to improve your draft position may be subject to punishment, including but not limited to the forfeiture of draft selections.</p>
+    <p>No team may intentionally leave starting roster spots empty. Do not intentionally sandbag your team in order to give your opponent a win. Draft tanking is countered through use of Max Points-For for non-playoff teams.</p>
 
     <h2 class="sectionHeading" bind:this={six}>Section 6 Replacing Managers</h2>
     
@@ -272,7 +272,7 @@
     <p>Short of continuously failing to set a valid lineup, or confirmed collusion, no manager can be removed against their will. Participation, through the league chat, trade offers, and the waiver wire, is strongly encouraged but absence is not grounds for removal.</p>
     
     <h3 bind:this={sixTwo}>6.2 Replacing Managers</h3>
-    <p>When a manager needs to be replaced, the commisiooners will try to find a suitable candidate with some connection to at least a portion of the existing managers. Priority will be placed on managers who are eager to take on a dynasty commitment and will be very active within the league.</p>
+    <p>When a manager needs to be replaced, the commisioners will try to find a suitable candidate with some connection to at least a portion of the existing managers. Priority will be placed on managers who are eager to take on a dynasty commitment and will be very active within the league.</p>
     
     <h3 bind:this={sixThree}>6.3 Replacement Incentive</h3>
     <p>In the event that a manager chooses to quit the league or is removed by a comissioner, an incoming manager is offered a 50% reduction on their first year buy-in.</p>
